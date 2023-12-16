@@ -1,0 +1,48 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #ccc;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    line-height: 1.6rem;
+    /*chiều cao dòng*/
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.none {
+    display: none;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.display {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ml-58 {
+    margin-left: -58px;
+}
+
+.w-130 {
+    width: 140px;
+    display: flex;
+    justify-content: center;
+}
+ 

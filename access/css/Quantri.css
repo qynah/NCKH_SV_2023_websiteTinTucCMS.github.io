@@ -1,0 +1,20 @@
+.Edit-title {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Playfair Display;
+    margin-top: 28px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.label {
+    font-size: 17px;
+}
+
+.submit:hover {
+    opacity: 0.9;
+}
+
+#my-textarea {
+    width: 100%;
+}

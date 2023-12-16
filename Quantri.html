@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrator</title>
+    <link rel="stylesheet" href="./access/css/Trangchu.css">
+    <link rel="stylesheet" href="./access/css/Quantri.css">
+    <link rel="stylesheet" href="./access/css/LibraryResponsive.css">
+    <link rel="stylesheet" href="./access/css/Base.css">
+    <link rel="stylesheet" href="./access/css/Responsive.css">
+    <link rel="stylesheet" href="./access/css/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="Header">
+        <div class="grid wide">
+            <div class="Header-navbar">
+                <div class="Header-navbar-left">
+                    <div class="Header-Logo">
+                        <img class="Imglogo" src="./access/Image/LogoHeader.jpg" alt="">
+                    </div>
+                    <div class="Header-DateTime">Thứ tư, 19/04/2023</div>
+                </div>
+                <div class="Header-navbar-right">
+                    <div class="Box-search">
+                        <input type="text" placeholder="Tìm kiếm" class="header-search-input">
+                        <i class="iconSearch ti-search"></i>
+                    </div>
+                    <div class="BoxLogin">
+                        <a href="./Login.html" style="text-decoration: none; color: #000;">
+                            <i class="iconUser fa-regular fa-user"></i>
+                            <span class="LoginTitle NoneMobile">Đăng nhập</span>
+                        </a>
+                    </div>
+                    <div class="Notification">
+                        <i class="fa-regular fa-bell"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Category -->
+    <div class="Header-Category c-0">
+        <a style="display: flex; align-items: center;" href="./Trangchu.html">
+            <img class="imgHome Category-item" src="./access/Image/iconHome.png" alt="">
+        </a>
+        <span class="Category-item"><a class="a" href="./Trangcon.html">Tin tức mới nhất</a></span>
+        <span class="Category-item"><a class="a" href="./Trangcon.html">Thể thao</a></span>
+        <span class="Category-item"><a class="a" href="./Trangcon.html">Sức khỏe</a></span>
+        <span class="Category-item"><a class="a" href="./Trangcon.html">Văn hóa</a></span>
+        <span class="Category-item"><a class="a" href="./Trangcon.html">Du lịch</a></span>
+        <span class="Category-item"><a class="a" href="./Trangcon.html">Gia đình</a></span>
+        <span class="Category-item"><a class="a" href="./Trangcon.html">Showbiz</a></span>
+        <span class="Category-item"><a class="a color" href="./Trangcon.html">Giáo dục</a></span>
+        <span class="Category-item"><a class="a" href="./Trangcon.html">Làm đẹp</a></span>
+        <span class="Category-item"><a class="a" href="./Trangcon.html">Công nghệ</a></span>
+        <span class="Category-item"><a class="a" href="./Trangcon.html">Giải trí</a></span>
+        <span class="Category-item"><a class="a" href="./Trangcon.html">Pháp luật</a></span>
+    </div>
+    <!-- Category on mobile -->
+    <div class="category-tablet-mobile">
+        <a style="display: flex; align-items: center;" href="./Trangchu.html">
+            <img class="imgHome Category-item" src="./access/Image/iconHome.png" alt="">
+        </a>
+        <span class="category-link category-item__link w-130"><a class="a" href="./Trangcon.html">Tin tức mới
+                nhất</a></span>
+        <span class="category-link category-item__link"><a class="a" href="./Trangcon.html">Thể thao</a></span>
+        <span class="category-link category-item__link"><a class="a" href="./Trangcon.html">Sức khỏe</a></span>
+        <span class="category-link category-item__link"><a class="a" href="./Trangcon.html">Văn hóa</a></span>
+        <span class="category-link category-item__link"><a class="a" href="./Trangcon.html">Du lịch</a></span>
+        <span class="category-link category-item__link"><a class="a" href="./Trangcon.html">Gia đình</a></span>
+        <span class="category-link category-item__link"><a class="a" href="./Trangcon.html">Showbiz</a></span>
+        <span class="category-link category-item__link"><a class="a colors" href="./Trangcon.html">Giáo dục</a></span>
+        <span class="category-link category-item__link"><a class="a" href="./Trangcon.html">Làm đẹp</a></span>
+        <span class="category-link category-item__link"><a class="a" href="./Trangcon.html">Công nghệ</a></span>
+        <span class="category-link category-item__link"><a class="a" href="./Trangcon.html">Giải trí</a></span>
+        <span class="category-link category-item__link"><a class="a" href="./Trangcon.html">Pháp luật</a></span>
+    </div>
+    <!-- Comtainer -->
+    <div class="Container-edit">
+        <div class="grid wide">
+            <div class="Edit-title">ĐĂNG BÀI</div>
+            <div class="row" style="margin-top: 36px;">
+                <div class="col l-4 m-4 c-4">
+                    <label class="label" for="my-textarea">Tiêu đề:</label>
+                </div>
+                <div class="col l-8 m-8 c-8">
+                    <textarea class="title" style="height: 36px; font-size: 16px;" id="my-textarea" name="my-textarea"
+                        rows="2" cols="50"></textarea>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 16px;">
+                <div class="col l-4 m-4 c-4">
+                    <label class="label author" for="my-textarea">Tác giả:</label>
+                </div>
+                <div class="col l-8 m-8 c-8">
+                    <textarea style="height: 36px; font-size: 16px;" id="my-textarea" name="my-textarea" rows="1"
+                        cols="50"></textarea>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 16px;">
+                <div class="col l-4 m-4 c-4">
+                    <label class="label img" for="image">Chọn ảnh:</label>
+                </div>
+                <div class="col l-8 m-8 c-8">
+                    <input type="file" id="image" name="image" accept="image/png, image/jpeg">
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 16px;">
+                <div class="col l-4 m-4 c-4">
+                    <label class="label" for="my-combobox">Chọn một tùy chọn:</label>
+                </div>
+                <div class="col l-8 m-8 c-8">
+                    <select style="height: 32px; width: 130px; font-size: 16px;" id="my-combobox" name="my-combobox">
+                        <option value="Thể thao">Thể thao</option>
+                        <option value="Sức khỏe">Sức khỏe</option>
+                        <option value="Văn hóa">Văn hóa</option>
+                        <option value="Du lịch">Du lịch</option>
+                        <option value="Gia đình">Gia đình</option>
+                        <option value="Showbiz">Showbiz</option>
+                        <option value="Giáo dục">Giáo dục</option>
+                        <option value="Làm đẹp">Làm đẹp</option>
+                        <option value="Công nghệ">Công nghệ</option>
+                        <option value="Giải trí">Giải trí</option>
+                        <option value="Pháp luật">Pháp luật</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 16px;">
+                <div class="col l-4 m-4 c-4">
+                    <label class="label" for="my-textarea">Nội dung:</label>
+                </div>
+                <div class="col l-8 m-8 c-8">
+                    <textarea class="content" style="height: 200px; font-size: 16px;" id="my-textarea"
+                        name="my-textarea" rows="5" cols="50"></textarea>
+                </div>
+            </div>
+            <div class="box-submit" style="display: flex; justify-content: right;margin-top: 42px; margin-right: 44px;">
+                <button class="submit"
+                    style="padding: 10px 14px; font-size: 16px; border-radius: 12px; background-color: rgb(134, 134, 245); cursor: pointer; border: none;">Đăng
+                    bài</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="Footer">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-7 m-12 c-12">
+                    <div class="boxFooter-1">
+                        <img class="logoFooter" src="./access/Image/LogoFooter.jpg" alt="">
+                        <div class="Footer-content">
+                            <p class="Footer-content-title">Theo dõi</p>
+                            <i class="icon-footer fa-brands fa-facebook-f"></i>
+                            <i class="icon-footer fa-brands fa-twitter"></i>
+                            <i class="icon-footer fa-brands fa-instagram"></i>
+                            <i class="icon-footer fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-5 m-12 c-12">
+                    <div class="boxFooter-2">
+                        <p class="boxFooter-2-content">Địa chỉ: Tầng 10, Tòa A FPT Tower, số 10 Phạm Văn Bạch, Dịch
+                            Vọng, Cầu Giấy, Hà Nội</p>
+                        <p class="boxFooter-2-content">Số điện thoại: 0993786376</p>
+                        <p class="boxFooter-2-content">Liên hệ: VietNews@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./Quantri.js"></script>
+</body>
+
+</html>

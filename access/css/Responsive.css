@@ -1,0 +1,370 @@
+@media (max-width: 1024px) {
+    .Header-Category {
+        padding: 0;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 1025px) {
+    .Header-Category {
+        display: flex !important;
+    }
+
+    .category-tablet-mobile {
+        display: none;
+    }
+}
+
+
+/* Mobile - tablet */
+@media (max-width: 1023px) {
+    .category-tablet-mobile {
+        display: inline-flex;
+    }
+
+    /* Trang chủ */
+    .Header {
+        padding: 2px 0;
+    }
+
+    .Header-DateTime,
+    .ClockTitle,
+    .LoginTitle {
+        font-size: 14px;
+    }
+
+    .Clock {
+        margin-right: 6px;
+        padding-right: 6px;
+    }
+
+    .Box-search {
+        margin-right: 8px;
+    }
+
+    .BoxLogin {
+        margin: 0 2px;
+    }
+
+    .Notification {
+        margin-left: 6px;
+    }
+
+    .Header-Category {
+        display: flex;
+        max-width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        align-items: center;
+        padding-left: 240px;
+    }
+
+    /* CSS cho thanh cuộn */
+    /* css chiều cao và màu */
+    .Header-Category::-webkit-scrollbar {
+        height: 2px;
+        background-color: #F5F5F5;
+    }
+
+    /* css cho thanh khung */
+    .Header-Category::-webkit-scrollbar-thumb {
+        background-color: #000000;
+    }
+
+    .Category-item {
+        text-decoration: none;
+        text-align: center;
+        border-radius: 4px;
+        flex-shrink: 0;
+        /* để khi thằng cha có bị co lại thì nó sẽ k bị co theo*/
+        display: block;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 8px;
+        cursor: pointer;
+    }
+
+    .ItemOutstand {
+        margin-bottom: 6px;
+    }
+
+    .imgOutstand-title {
+        padding-top: 0;
+    }
+
+    .imgHelth,
+    .imgNewhethy {
+        height: 160px;
+    }
+
+    .Footer {
+        margin-top: 12px;
+        height: 190px;
+    }
+
+    .boxFooter-1 {
+        font-size: 14px;
+    }
+
+    .boxFooter-2>p {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .boxFooter-1 {
+        margin-bottom: 12px;
+    }
+}
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width:1023px) {
+    .category-tablet-mobile {
+        display: flex !important;
+        justify-content: space-around;
+        display: none !important;
+    }
+
+    .Header-Category {
+        display: flex !important;
+        padding-left: 255px;
+    }
+
+    .Category-item {
+        padding-left: 16px;
+    }
+
+    /* Trang chủ */
+    .imgNewItem_2,
+    .imgNewItem_3 {
+        width: 98%;
+        height: 160px;
+    }
+
+    .NoneTablet {
+        display: none !important;
+    }
+}
+
+/* PC */
+@media(min-width:1023px) {
+    .NoneTablet {
+        display: none !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .category-item__link {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Trang chủ */
+    .Header-Logo {
+        height: 44px;
+        width: 100px;
+    }
+
+    .Imglogo {
+        padding-right: 6px;
+    }
+
+    .Header-DateTime {
+        font-size: 15px;
+        line-height: 1.4;
+        padding-left: 6px;
+    }
+
+    .Container {
+        margin: 0 2%;
+    }
+
+    .Header-navbar {
+        justify-content: space-around;
+    }
+
+    .Header-Category {
+        padding-left: 400px;
+    }
+
+    .imgItemNew_1 {
+        height: 270px;
+    }
+
+    .Item-new_two {
+        margin-top: 6px;
+    }
+
+    .item-New_title {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+
+    .Container-item-1 {
+        padding-bottom: 16px;
+    }
+
+    .New-two-title,
+    .item-Outstand_title {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    .New-two-content {
+        font-size: 16px;
+        margin-top: 4px;
+    }
+
+    .imgNewItem_2,
+    .imgNewItem_3 {
+        margin-top: 16px;
+        width: 100%;
+        height: 168px;
+    }
+
+    .item-Outstand_title {
+        font-size: 20px;
+        padding: 12px 0 12px 18px;
+    }
+
+    .imgOutstand-title {
+        font-size: 18px;
+        margin-bottom: 6px;
+        line-height: 1.3;
+    }
+
+    .item-helth-title-1 {
+        font-size: 20px;
+    }
+
+    .Container-item-3 {
+        margin-top: 12px;
+    }
+
+    .imgOutstand_1,
+    .imgOutstand_2,
+    .imgOutstand_3,
+    .imgOutstand_4 {
+        height: 200px;
+    }
+
+    .item-helth-title-2,
+    .item-helth-title-3,
+    .item-helth-title-4,
+    .item-helth-title-5 {
+        font-size: 16px;
+    }
+
+    .item-helth-title-5 {
+        display: none;
+    }
+
+    .helth-center-title {
+        font-size: 18px;
+    }
+
+    .helth-center-content,
+    .listhelth>li {
+        font-size: 16px;
+    }
+
+    .item-helth {
+        margin-top: 4px;
+    }
+
+    .item-sport {
+        margin-top: 12px;
+    }
+
+    .imgHelth {
+        height: 200px;
+    }
+
+    .Kmt-58 {
+        margin-left: 0;
+    }
+
+    .Footer-content {
+        margin-left: 10px;
+    }
+
+    .logoFooter {
+        margin-left: 18px;
+    }
+
+    .boxFooter-1 {
+        margin-top: 8px;
+        margin-bottom: 12px;
+    }
+
+    .Footer-content-title {
+        margin-right: 10px;
+        padding: 4px 16px;
+    }
+
+    .boxFooter-2 {
+        margin: 0 5%;
+        margin-bottom: 14px;
+    }
+
+    .NoneMobile {
+        display: none;
+    }
+
+    .imgNewhethy {
+        height: 200px;
+    }
+
+    .educat-title {
+        font-size: 20px;
+    }
+
+    .educat-title-1,
+    .educat-title-2,
+    .educat-title-3,
+    .educat-title-4 {
+        font-size: 14px;
+        margin-left: 0;
+        margin-left: 14px;
+    }
+
+    .educat-title-1 {
+        font-size: 15px;
+    }
+
+    .New-two-content {
+        line-height: 1.6;
+    }
+
+    .Container-edit {
+        margin: 0 4%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width:1200px) {
+    .Header-Category {
+        padding: 0 2%;
+    }
+}
+
+@media(max-width: 425px) {
+    .Header-DateTime {
+        display: none;
+    }
+
+    .logout {
+        width: 84px;
+    }
+    .Clock{
+        padding: 4px !important;
+    }
+}

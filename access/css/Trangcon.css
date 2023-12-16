@@ -1,0 +1,98 @@
+.color {
+    color: #f09a43;
+}
+
+.Item-education {
+    margin-top: 22px;
+    display: flex;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.educat-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    font-family: Playfair Display;
+}
+
+.educat-title-1 {
+    margin: 0;
+    font-size: 17px;
+    margin-left: 16px;
+}
+
+.educat-title-1 {
+    color: red;
+}
+
+.educat-title-2,
+.educat-title-3,
+.educat-title-4 {
+    margin: 0;
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.item-Outstand_title {
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+.iteam3-title {
+    font-size: 22px;
+    font-family: Playfair Display;
+    font-weight: bold;
+    padding-bottom: 8px;
+    padding-top: 24px;
+    border-bottom: 1px solid #ccc;
+}
+
+.item-3-content {
+    margin-top: 8px;
+}
+
+.imgNewhethy {
+    width: 100%;
+    height: 146px;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.item-3-content-title {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.item-3-content-time {
+    display: flex;
+    justify-content: right;
+    font-size: 15px;
+    margin: 0;
+    margin: 4px 0;
+}
+
+.item-3-content-notifi {
+    font-size: 15px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.item-helth-title {
+    margin-top: 12px;
+    padding: 2px 0;
+}
+
+.item-helth-title {
+    justify-content: left;
+}
+
+.item-helth-title-1 {
+    font-size: 22px;
+}
+
+.imgNewhethy:hover {
+    opacity: 0.9;
+}

@@ -1,0 +1,7 @@
+.messErrUsername,
+.messErrEmail,
+.messErrPass,
+.messageNotification {
+    font-size: 12px;
+    color: red;
+}
